@@ -73,8 +73,8 @@ section.content-section {
     display: inline-block;
     margin-left: 20px;
 }
-
-.content {
+/* renamed to article content to help consildiate same CSS code*/
+article.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,53 +82,17 @@ section.content-section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
+/* renamed to article content img to help consildiate same CSS code*/
+article.content img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.content h2 {
+/* renamed to article content h2 to help consildiate same CSS code*/
+article.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.benefits {
+/* renamed ti aside.benefits */
+article.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
