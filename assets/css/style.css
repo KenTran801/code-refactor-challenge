@@ -63,18 +63,18 @@ img.float-left {
     margin-right: 25px;
 }
 /* renamed to img.float right */
-.float-right {
+img.float-right {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* renamed to section.content-section */
+section.content-section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -101,7 +101,7 @@ img.float-left {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
 
@@ -113,7 +113,7 @@ img.float-left {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
